@@ -11,6 +11,12 @@ This repo is mainly unmaintained. But if you found a bug and create a pull reque
 
 ## Changelog
 
+### Version 2.8.0
+
+#### New Features
+* Add support for postgres 16 - ALTER SEQUENCE ... OWNED BY ... statements
+* Add support for pg_dump 16.10 - ignore \restrict and \unrestrict meta commands
+
 ### Version 2.7.0
 
 #### New Features
