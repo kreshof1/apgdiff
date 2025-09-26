@@ -376,6 +376,11 @@ public class PgDumpLoader { //NOPMD
                     sbStatement.append(System.getProperty("line.separator"));
                 }
 
+                if (newLine.startsWith("\\")) {
+                    // skip pg_dump meta-commands
+                    continue;
+                }
+
                 pos = sbStatement.length();
                 sbStatement.append(newLine);
                 stripComment(sbStatement);

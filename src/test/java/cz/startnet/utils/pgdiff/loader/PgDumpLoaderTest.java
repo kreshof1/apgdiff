@@ -46,7 +46,9 @@ public class PgDumpLoaderTest {
                     {14},
                     {15},
                     {16},
-                    {18}
+                    {17},
+                    {18},
+                    {19}
                 });
     }
     /**
